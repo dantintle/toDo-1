@@ -19,6 +19,9 @@
 		AF66178B180B7915001E3F2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF661773180B7914001E3F2C /* UIKit.framework */; };
 		AF661793180B7915001E3F2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF661791180B7915001E3F2C /* InfoPlist.strings */; };
 		AF661795180B7915001E3F2C /* toDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF661794180B7915001E3F2C /* toDoTests.m */; };
+		AF6617A0180B7B11001E3F2C /* RMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF66179F180B7B11001E3F2C /* RMTableViewController.m */; };
+		AF6617A3180B7C4D001E3F2C /* RMCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6617A2180B7C4D001E3F2C /* RMCustomCell.m */; };
+		AF6617A5180B7C6B001E3F2C /* RMCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF6617A4180B7C6B001E3F2C /* RMCustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		AF661790180B7915001E3F2C /* toDoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "toDoTests-Info.plist"; sourceTree = "<group>"; };
 		AF661792180B7915001E3F2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF661794180B7915001E3F2C /* toDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toDoTests.m; sourceTree = "<group>"; };
+		AF66179E180B7B11001E3F2C /* RMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTableViewController.h; sourceTree = "<group>"; };
+		AF66179F180B7B11001E3F2C /* RMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMTableViewController.m; sourceTree = "<group>"; };
+		AF6617A1180B7C4D001E3F2C /* RMCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCustomCell.h; sourceTree = "<group>"; };
+		AF6617A2180B7C4D001E3F2C /* RMCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCustomCell.m; sourceTree = "<group>"; };
+		AF6617A4180B7C6B001E3F2C /* RMCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMCustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,11 @@
 		AF661763180B7914001E3F2C = {
 			isa = PBXGroup;
 			children = (
+				AF6617A1180B7C4D001E3F2C /* RMCustomCell.h */,
+				AF6617A2180B7C4D001E3F2C /* RMCustomCell.m */,
+				AF6617A4180B7C6B001E3F2C /* RMCustomCell.xib */,
+				AF66179E180B7B11001E3F2C /* RMTableViewController.h */,
+				AF66179F180B7B11001E3F2C /* RMTableViewController.m */,
 				AF661775180B7914001E3F2C /* toDo */,
 				AF66178E180B7915001E3F2C /* toDoTests */,
 				AF66176E180B7914001E3F2C /* Frameworks */,
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6617A5180B7C6B001E3F2C /* RMCustomCell.xib in Resources */,
 				AF66177A180B7914001E3F2C /* InfoPlist.strings in Resources */,
 				AF661782180B7914001E3F2C /* Images.xcassets in Resources */,
 			);
@@ -241,7 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF66177C180B7914001E3F2C /* main.m in Sources */,
+				AF6617A0180B7B11001E3F2C /* RMTableViewController.m in Sources */,
 				AF661780180B7914001E3F2C /* RMAppDelegate.m in Sources */,
+				AF6617A3180B7C4D001E3F2C /* RMCustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
