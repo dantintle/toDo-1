@@ -141,4 +141,16 @@ static char NSIntItemIndexPath;
     [self setUpToolbar];
 }
 
+#pragma mark - record/restore toDo state
+
+-(void)record
+{
+    [[NSUserDefaults standardUserDefaults] setObject:self.items forKey:@"toDoList"];
+}
+
+-(void)restore
+{
+    self.items = [[NSMutableArray alloc] initWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:@"toDoList"]];
+}
+
 @end

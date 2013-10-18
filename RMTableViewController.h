@@ -10,4 +10,6 @@
 
 @interface RMTableViewController : UITableViewController<UITextFieldDelegate>
 
+-(void) record;
+-(void) restore;
 @end
